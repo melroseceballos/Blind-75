@@ -38,7 +38,7 @@ count[key].push(letter)
   count[key] = [letter]
 }
 }
-//
+// returns the values of the keys as an array
   return Object.values(count)
 }
 
