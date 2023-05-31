@@ -44,4 +44,12 @@ count[key].push(letter)
 
 console.log(groupAnagrams(["eat","tea","tan","ate","nat","bat"]))
 
+/* REFLECTION
+- learned how to use object.
+- forgot about the split, join, method
+- wasnt as hard as I thought
+Next time,I will take time to think how to solve questions
+and explore other ways to solve it
+
+*/
 
