@@ -14,7 +14,7 @@ You can return the answer in any order.
 - return the value using Object.values to create an array
 */
 
-// SOLUTION:
+// SOLUTION: O(n * k* log(k))
 groupAnagrams = (strs) => {
     // stores the keys
   let count = {}
