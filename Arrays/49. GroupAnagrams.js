@@ -35,7 +35,7 @@ if(count[key]){
 count[key].push(letter)
 }else{
     // if false, it assigns the word to the key
-  count[key] = [letter]
+  count[key] = [letter] // dont forget to add [] since the letters were converted to arrays
 }
 }
 // returns the values of the keys as an array
