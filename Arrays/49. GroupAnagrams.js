@@ -28,13 +28,17 @@ so now any word that contains the letter aet
 will be added as a value 
 */
 const key = letter.split("").sort().join("")
-
+// checks if the current word is already
+// stored in a key
 if(count[key]){
+    // if yes, it pushes that word into the key
 count[key].push(letter)
 }else{
+    // if false, it assigns the word to the key
   count[key] = [letter]
 }
 }
+//
   return Object.values(count)
 }
 
