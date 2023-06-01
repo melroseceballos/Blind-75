@@ -4,6 +4,8 @@ You may return the answer in any order.
 */
 
 /* PSEUDOCODE
-- create a condition that checks if arr is <= to 1
+* create a condition that checks if arr is <= to 1
   if so, return array
+* create an array to store frequent elements 
+
 */
