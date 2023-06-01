@@ -14,8 +14,8 @@ You may return the answer in any order.
 // SOLUTION:
 const frequentElements = (arr, k) => {
   if (arr.length <= 1) return arr;
-
   const count = {};
+// variables to store the frequency of numbers
   const frequent = [];
   for (let i = 0; i < arr.length; i++) {
     const element = arr[i];
